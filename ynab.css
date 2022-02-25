@@ -1,0 +1,27 @@
+body .budget-table-container.is-expanded ul.is-sub-category {
+    height: 2rem;
+    font-size: 14px;
+}
+
+body .budget-table-container.is-expanded .ynab-new-budget-bar-v2 {
+    margin-top: 0.1rem;
+}
+
+.ynab-flag-yellow .label,
+.ynab-flag-green .label{
+    display: none;
+}
+
+.ynab-flag-yellow:after {
+    content: "To Be Reimbursed";
+    background-color: rgba(0,0,0,.4);
+    border-radius: 0.4em;
+    padding: 0.4rem 0.7rem;
+}
+
+.ynab-flag-green:after {
+    content: "Reimbursed";
+    background-color: rgba(0,0,0,.4);
+    border-radius: 0.4em;
+    padding: 0.4rem 0.7rem;
+}
